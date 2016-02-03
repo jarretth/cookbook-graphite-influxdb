@@ -5,7 +5,7 @@ default['graphite_influxdb']['git']['clone_directory'] = '/opt/graphite_influxdb
 
 default['graphite_influxdb']['influxdb'] = {
     'enabled' => true,
-    'host' => '10.250.1.146',
+    'host' => 'localhost',
     'port' => '8086',
     'user' => 'graphite',
     'pass' => 'graphite',
