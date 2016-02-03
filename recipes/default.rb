@@ -7,6 +7,8 @@
 
 include_recipe 'graphite-api'
 
+include_recipe 'graphite-influxdb::install-deps'
+
 if node['graphite_influxdb']['install_method'] == 'git'
     include_recipe 'graphite-influxdb::install-git'
 else
