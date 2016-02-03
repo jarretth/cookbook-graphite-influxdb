@@ -4,7 +4,7 @@ maintainer_email 'jarrett.hawrylak@showclix.com'
 license          'MIT'
 description      'Installs/Configures graphite-influxdb'
 long_description 'Installs/Configures graphite_influxdb for graphite-api'
-version          '0.1.0'
+version          '0.1.1'
 
 supports 'centos'
 

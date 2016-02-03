@@ -13,3 +13,4 @@ else
     include_recipe 'graphite-influxdb::install-pip'
 end
 
+include_recipe 'graphite-influxdb::configure'
