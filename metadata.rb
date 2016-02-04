@@ -4,7 +4,9 @@ maintainer_email 'jarrett.hawrylak@showclix.com'
 license          'MIT'
 description      'Installs/Configures graphite-influxdb'
 long_description 'Installs/Configures graphite_influxdb for graphite-api'
-version          '0.1.2'
+version          '0.1.3'
+source_url       'https://github.com/jarretth/cookbook-graphite-influxdb'
+issues_url       'https://github.com/jarretth/cookbook-graphite-influxdb/issues'
 
 supports 'centos'
 
