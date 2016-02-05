@@ -18,7 +18,7 @@ CentOS
   <tr>
     <td><tt>['graphite_influxdb']['install_method']</tt></td>
     <td>`git` or `pip`</td>
-    <td>`git` is required for InfluxDB 0.9</td>
+    <td>`git` is required for InfluxDB 0.9/0.10</td>
     <td><tt>`git`</tt></td>
   </tr>
 </table>

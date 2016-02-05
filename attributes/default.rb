@@ -3,6 +3,12 @@ default['graphite_influxdb']['git']['install_repo'] = 'https://github.com/vimeo/
 default['graphite_influxdb']['git']['install_hash'] = 'e4221493d1668b7d28ae9ca675e13c547653e6d2'
 default['graphite_influxdb']['git']['clone_directory'] = '/opt/graphite_influxdb'
 
+default['graphite_api']['cache'] = {
+    'enabled' => true,
+    'type' => 'filesystem',
+    'dir' => '/tmp/graphite-api-cache',
+}
+
 default['graphite_influxdb']['influxdb'] = {
     'enabled' => true,
     'host' => 'localhost',
